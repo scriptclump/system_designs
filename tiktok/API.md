@@ -1,0 +1,3 @@
+- uploadVideo(userid, timestamp, videometadata, videofile)
+- viewVideo(videometadata, userid)
+- viewUser(userid)

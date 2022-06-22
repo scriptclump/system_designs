@@ -1,0 +1,5 @@
+**Userdata:** User data has a fixed schema and we needn't change the schema in future. Therefore, we can go with Relational database such as Postgres, MY SQL or Oracle.
+
+**Video metadata:** Schema needs flexibility because we may add new attributes to video in future. Some attributes may be applicable to a particular video. Therefore, a key-value store would be ideal for storing video metadata.
+
+**Video files:** We need a blob storage. A combination of Amazon S3+ CDN would be idea to persist videos. CDN would make sure these videos can be served across geographies with minimum latency. Ideally, CDN will also include userdata and video metadata. For low latency, we can shard this database with country/location id as key. This will reduce the latency when user consumes the videos of his/her geography

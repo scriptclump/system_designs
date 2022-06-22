@@ -1,0 +1,7 @@
+- Active users per day: 2 million
+- Ratio of writes to reads: 1:10
+- Number of video uploaded: 200k
+- Number of formats per video: 3
+- Number of resolutions per format: 2 (size of the file decreases as resolution decreases, so a         multiplication factor of 2 can be assumed for 4 resolutions per video)
+- Avg size of a video: 1 MB
+- Data to be persisted per day: 200k X 3 X 2 X 1 MB = 1200 GB = 1.2 TB

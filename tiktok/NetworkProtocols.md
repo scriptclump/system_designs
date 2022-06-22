@@ -1,0 +1,1 @@
+For video upload and consumptions, we can use HTTPS. HTTPS is built on top of TCP, which ensures guarantee and sends the data packets in orderly manner.
